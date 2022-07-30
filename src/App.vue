@@ -86,7 +86,7 @@ function canMove(num) {
 }
 
 function reStart() {
-  for (let i = 0; i < 80; i++) {
+  for (let i = 0; i < 100; i++) {
     let num = Math.ceil(Math.random() * 8);
     canMove(num);
   }
